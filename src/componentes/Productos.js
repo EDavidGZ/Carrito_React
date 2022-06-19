@@ -4,8 +4,8 @@ import Producto from './Producto'
 const style = {
   productos: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(3, 1fr)',
-    
+    gridTemplateColumns: 'repeat(2, 1fr)',
+    justifyContent: 'space-between',
     
   }
 }
