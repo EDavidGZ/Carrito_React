@@ -12,11 +12,13 @@ class App extends Component {
 
   state = {
     productos: [
-      {name: 'Papaloquelite', price: '1.5 *K', img: '/img/Papalo.jpg'},
-      {name: 'Tomate', price: '20 *K', img: '/img/tomate.jpg'},
-      {name: 'Aguacate', price: '40 *K', img: '/img/aguacate.jpg'},
-      {name: 'Lechuga', price: '10 *K', img: '/img/lechuga.jpg'},
-      {name: 'Zanahoria', price: '25 *K', img: '/img/Zanahoria.png'},
+      {name: 'Papaloquelite', price: '1.5 xK', img: '/img/Papalo.jpg'},
+      {name: 'Tomate', price: '20 xK', img: '/img/tomate.jpg'},
+      {name: 'Aguacate', price: '40 xK', img: '/img/aguacate.jpg'},
+      {name: 'Lechuga', price: '10 xK', img: '/img/lechuga.jpg'},
+      {name: 'Zanahoria', price: '25 xK', img: '/img/Zanahoria.png'},
+      {name: 'Piña', price: '20 pz', img: '/img/Piña.jfif'},
+      {name: 'Calabacin', price: '22 xK', img: '/img/Calabacin.jpg'},
     ],
     carro: [],
     visible: false

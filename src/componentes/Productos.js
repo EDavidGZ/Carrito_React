@@ -3,9 +3,9 @@ import Producto from './Producto'
 
 const style = {
   productos: {
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    display: 'grid',
+    gridTemplateColumns: 'repeat(3, 1fr)',
+    
     
   }
 }
