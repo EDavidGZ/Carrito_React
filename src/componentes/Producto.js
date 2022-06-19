@@ -5,8 +5,8 @@ const style = {
   producto: {
     border: 'solid 1px #eee',
     boxShadow: '0 5px 5px rgb(0, 0, 0, 0.1)',
-    width: '30%',
-    padding: '10px 15px',
+    width: '50%',
+    padding: '40px 70px',
     borderRadius: '15px'
     
   },

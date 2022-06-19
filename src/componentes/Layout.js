@@ -7,6 +7,7 @@ const style = {
     alignItems: 'center',
     display: 'flex',
     flexDirection: 'column',
+    width: '100%'
   },
   
 }

@@ -1,6 +1,7 @@
 import { Component } from 'react'
 import Producto from './Producto'
 
+
 const style = {
   productos: {
     display: 'grid',
