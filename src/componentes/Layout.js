@@ -8,16 +8,14 @@ const style = {
     display: 'flex',
     flexDirection: 'column',
   },
-  container: {
-   
-  }
+  
 }
 
 export default class Layout extends Component {
   render() {
     return (
       <div style={style.layout} >
-        <div style={style.container}>
+        <div >
           {this.props.children}
         
         </div>
